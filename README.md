@@ -33,7 +33,7 @@ Paswoord : ESP32pswd
 
 IP address : 192.168.4.1
 
-Wat kunnen we ermee
+# Interface module
 
 weergave via webpagina van :
 
@@ -50,6 +50,8 @@ huidig injektie
 status digitale uitgangen
 
 status PWM signalen
+
+instellen van de verschillende parameters
 
 # Wat kunnen we ermee 
 
