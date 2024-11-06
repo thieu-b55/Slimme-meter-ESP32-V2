@@ -59,8 +59,6 @@ status PWM signalen
 
 instellen van de verschillende parameters
 
-# Wat kunnen we ermee 
-
 opslag en weergave van 
 
 elektriciteist verbruik
