@@ -25,13 +25,17 @@ PWM module
 
 Deze modules communiceren draadloos met elkaar via esp-now
 
-Eigen WiFi netwerk (WiFi.mode(WIFI_AP_STA)
+Eigen WiFi netwerk WiFi.mode(WIFI_AP_STA)
 
 Netwerk : ESP32Energie_V2 
 
 Paswoord : ESP32pswd 
 
 IP address : 192.168.4.1
+
+.bin files van elk programma aanwezig in bin folder kunnen ge-upload worden naar ESP32
+
+Om problemen met niet compatibele updates van core of libaries te vermijden
 
 # Interface module
 
