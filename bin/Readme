@@ -1,0 +1,39 @@
+Install esptool.py
+
+https://docs.espressif.com/projects/esptool/en/latest/esp32/installation.html#installation
+https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/
+or find YouTube instructions on the internet
+
+
+after installation
+
+connect ESP32WROOM Devkit
+
+
+in bin folder :
+
+open terminal
+
+type
+
+esptool.py -b921600 write_flash 0x0000 <programmanaam.ino>.bin
+
+in terminal and <enter>
+
+or 
+
+type
+
+esptool.py -b921600 --port /dev/ttyACM0 write_flash 0x0000 <programmanaam.ino>.bin
+
+in terminal and <enter>
+
+
+replace /dev/ttyACM0 with your USB connection
+
+<enter>
+
+
+that's it
+
+have fun

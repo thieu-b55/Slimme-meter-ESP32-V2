@@ -1,0 +1,17 @@
+READ FLASH 0 >> 2M
+esptool.py -b 921600 read_flash 0x00000 0x1fffff <programmanaam.ino>.bin
+or
+esptool.py -b 921600 --port /dev/ttyACM0 read_flash 0x00000 0x200000 <programmanaam.ino>.bin
+
+
+WRITE FLASH 
+esptool.py -b921600 write_flash 0x0000 <programmanaam.ino>.bin
+or
+esptool.py -b921600 --port /dev/ttyACM0 write_flash 0x0000 <programmanaam.ino>.bin
+
+esptool.py erase_flash
+
+
+https://docs.espressif.com/projects/esptool/en/latest/esp32/installation.html#installation
+
+https://docs.espressif.com/projects/esptool/en/latest/esp32/esptool/flashing-firmware.html
