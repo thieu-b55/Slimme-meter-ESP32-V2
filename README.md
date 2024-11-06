@@ -36,3 +36,15 @@ Wat kunnen we ermee
 weergave van :
 
 totaal elektriciteitsverbruik
+
+totaal injektie
+
+totaal gasverbruik
+
+huidig elektriciteitsverbruik
+
+huidig injektie
+
+status digitale uitgangen
+
+status PWM signalen
