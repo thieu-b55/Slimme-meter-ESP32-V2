@@ -1,6 +1,8 @@
 # Slimme-meter-ESP32-V2
 Interface voor slimme elektriciteitsmeter België / Nederland versie 2
 
+Gebruikte Slimme digitale meter van Fluvius >> Sagemcom
+
 Dit is een update van de Slimme digitale meter
 
 https://github.com/thieu-b55/Slimme-Digitale-Energie-Meter
