@@ -41,7 +41,7 @@ Om problemen met niet compatibele updates van core of libaries te vermijden
 
 # Interface module
 
-weergave via webpagina van :
+# weergave via webpagina van :
 
 totaal elektriciteitsverbruik
 
@@ -57,15 +57,11 @@ status digitale uitgangen
 
 status PWM signalen
 
+# instellen van de verschillende parameters
 
+# opslag en weergave van :
 
-instellen van de verschillende parameters
-
-
-
-opslag en weergave van 
-
-elektriciteist verbruik
+elektriciteits verbruik
 
 injektie
 
