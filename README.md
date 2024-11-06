@@ -25,7 +25,9 @@ Digitale output
 
 PWM module
 
-Deze modules communiceren draadloos met elkaar via esp-now
+Modules communiceren draadloos via esp-now
+
+Nu ook met maandpiek 
 
 Eigen WiFi netwerk WiFi.mode(WIFI_AP_STA)
 
@@ -52,6 +54,8 @@ totaal gasverbruik
 huidig elektriciteitsverbruik
 
 huidig injektie
+
+maandpiek
 
 status digitale uitgangen
 
