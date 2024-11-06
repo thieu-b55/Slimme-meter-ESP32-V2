@@ -1,8 +1,5 @@
 # Slimme-meter-ESP32-V2
 Interface voor slimme elektriciteitsmeter België / Nederland versie 2
-Slimme-meter-ESP32-V2
-
-Interface voor slimme elektriciteitsmeter België / Nederland versie 2
 
 Dit is een update van de Slimme digitale meter
 
@@ -30,10 +27,15 @@ Deze modules communiceren draadloos met elkaar via esp-now
 
 Eigen WiFi netwerk (WiFi.mode(WIFI_AP_STA)
 
-Netwerk : ESP32Energie_V2 Paswoord : ESP32pswd IP address : 192.168.4.1
+Netwerk : ESP32Energie_V2 
+
+Paswoord : ESP32pswd 
+
+IP address : 192.168.4.1
+
 Wat kunnen we ermee
 
-weergave van via webpagina
+weergave via webpagina van :
 
 totaal elektriciteitsverbruik
 
@@ -90,3 +92,29 @@ status PWM signalen
 # PWM signalen
 
 2 PWM outputs
+
+PWM 1
+
+kan gebruikt worden voor het aansturen van een elektrische boiler
+
+boiler wordt alleen aangestuurd met het eigen opgewekt vermogen
+
+PWM 2
+
+Deze begint te regelen vanaf het moment dat PWM 1 100% is uitgestuurd
+
+Het eventuele nog resterende zelf opgewekt vermogen kan gebruikt worden om bijvoorbeeld
+
+een elektriche bijverwarming te sturen.
+
+Terugleveren op het net is momenteel niet rendabel
+
+# Digitale uitgangen
+
+kunnen gestuurd worden op
+
+tijdsbasis
+
+bij een bepaalde hoeveelheid opgewekt vermogen
+
+of een combinatie van deze 2
