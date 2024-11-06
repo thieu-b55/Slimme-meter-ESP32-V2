@@ -57,7 +57,11 @@ status digitale uitgangen
 
 status PWM signalen
 
+
+
 instellen van de verschillende parameters
+
+
 
 opslag en weergave van 
 
