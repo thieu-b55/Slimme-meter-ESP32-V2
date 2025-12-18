@@ -5,6 +5,10 @@ Wordt op het einde van de dag ook uitgeprint via de seriële poort
 
 Opbouw csv file zie vanaf pagina 35    Slimme meter ESP32 csv.pdf
 
+Data van de vorige versie kan niet meer gelezen worden met deze versie
+
+csv data op SD kaart kan gelezen worden door LibreOffice Calc en waarschijnlijk ook met Windows Excel maar dat kan ik niet proberen wegens geen Windows
+
 # Slimme-meter-ESP32-V2
 Interface voor slimme elektriciteitsmeter België / Nederland versie 2
 
