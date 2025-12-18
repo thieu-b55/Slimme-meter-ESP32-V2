@@ -1,3 +1,10 @@
+# Update 18/12/2025
+Data wordt nu opgeslagen in csv formaat.
+
+Wordt op het einde van de dag ook uitgeprint via de seriële poort
+
+Opbouw csv file zie vanaf pagina 35    Slimme meter ESP32 csv.pdf
+
 # Slimme-meter-ESP32-V2
 Interface voor slimme elektriciteitsmeter België / Nederland versie 2
 
